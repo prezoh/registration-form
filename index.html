@@ -10,3 +10,53 @@
   <link href="css/main.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
 </head>
+<body>
+  <section class="grid grid-middle contact pad-t-2 pad-b-2 island">
+    <div class="unit xs-1 s-1 m-1 l-2-3 wrapper">
+      <h1 class="pad-t">Want to go to Mars?</h1>
+      <p class="mega push-r-1-8">We’re looking for super-awesome human beings who want to make the long trek to Mars for the adventure of a lifetime.</p>
+
+      <form class="push-0" method="POST" action="https://formspree.io/thom1049@algonquinlive.com">
+
+        <fieldset class="push">
+          <legend class="giga italic">Personal details</legend>
+        </fieldset>
+
+        <div class="unit xs-1 s-1 m-1 l-1-3 push">
+          <label for="full-name" class="kilo">Name</label>
+          <input id="full-name" name="name">
+        </div>
+        <div class="unit xs-1 s-1 m-1 l-1-3 push">
+          <label for="number" class="kilo">Age</label>
+          <input id="number" type="number">
+        </div>
+        <div class="unit xs-1 s-1 m-1 l-1-3 push">
+          <label for="email" class="kilo">Email</label>
+          <input id="email" type="email" name="email">
+        </div>
+
+
+        <div class="push">
+          <label for="address" class="kilo">Address</label>
+          <textarea id="address"></textarea>
+        </div>
+
+        <fieldset>
+          <legend class="giga italic">Mission statement</legend>
+        </fieldset>
+
+        <div class="push">
+          <label for="question" class="kilo">Why do you want to go to Mars?</label>
+          <textarea id="question" name="question"></textarea>
+        </div>
+
+        <div>
+          <button class="btn btn-dark" type="submit">Register for the trip!</button>
+        </div>
+        <input type="hidden" name="_subject" value="Request to join the mission">
+      </form>
+    </div>
+  </section>
+
+</body>
+</html>
